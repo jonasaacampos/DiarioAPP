@@ -91,3 +91,19 @@ remover linhas do app.js
 './routes/users'); > './app/routes/users');
 
 ## Preparando base da API
+
+npm i nodemon --save
+
+criar diretorio e arquivo de configuração do mongo
+config/database.js
+
+npm i mongoose --save
+
+realizar configuração do banco de dados dentro do database.js
+
+inserir a configuração do banco de dados no app
+require('./config/database');
+
+## Autendicação e transformando senha em hash
+
+npm i bcrypt --save
