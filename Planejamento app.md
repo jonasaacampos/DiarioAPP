@@ -107,3 +107,11 @@ require('./config/database');
 ## Autendicação e transformando senha em hash
 
 npm i bcrypt --save
+
+**registrando usuário**
+
+**login**
+
+npm i jsonwebtoken --save
+
+npm i dotenv --save
